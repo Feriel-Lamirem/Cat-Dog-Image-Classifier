@@ -1,7 +1,10 @@
 # Cat-Dog-Image-Classifier
-freecodecamp: Machine Learning with Python Certification
+freecodecamp: Machine Learning with Python Certification 
+
 Project : Cat and Dog Image Classifier- Solution
+
 For this challenge, you will complete the code to classify images of dogs and cats. You will use TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs at least 63% of the time.
+
 
 Some of the code is given to you but some code you must fill in to complete this challenge. Read the instruction in each text cell so you will know what you have to do in each code cell.
 
@@ -10,14 +13,24 @@ The first code cell imports the required libraries. The second code cell downloa
 The structure of the dataset files that are downloaded looks like this (You will notice that the test directory has no subdirectories and the images are not labeled):
 
 cats_and_dogs
+
 |__ train:
+
     |______ cats: [cat.0.jpg, cat.1.jpg ...]
+    
     |______ dogs: [dog.0.jpg, dog.1.jpg ...]
+    
 |__ validation:
+
     |______ cats: [cat.2000.jpg, cat.2001.jpg ...]
+    
     |______ dogs: [dog.2000.jpg, dog.2001.jpg ...]
+    
 |__ test: [1.jpg, 2.jpg ...]
+
+
 You can tweak epochs and batch size if you like, but it is not required.
+
 
 The following instructions correspond to specific cell numbers, indicated with a comment at the top of the cell (such as # 3).
 
